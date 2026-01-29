@@ -1,0 +1,11 @@
+/* Layout */
+#main {
+  height: 1fr;
+}
+
+/* Hero label on Home */
+#hero {
+  padding: 2 2;
+  text-style: bold;
+  color: $text;
+}
