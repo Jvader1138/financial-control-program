@@ -1,6 +1,6 @@
 from textual.app import App, ComposeResult
 from textual.widgets import Header, Footer
-from screens import HomeScreen, RebalancerScreen, SettingsScreen
+from screens import HomeScreen, PortfolioScreen, SettingsScreen
 
 class Main(App):
     CSS_PATH = "styles/app.tcss"
@@ -13,7 +13,7 @@ class Main(App):
     def on_mount(self) -> None:
         # Register screens
         self.install_screen(HomeScreen(), name="home")
-        self.install_screen(RebalancerScreen(), name="rebalancer")
+        self.install_screen(PortfolioScreen(), name="portfolio")
         self.install_screen(SettingsScreen(), name="settings")
         self.push_screen("home")
 

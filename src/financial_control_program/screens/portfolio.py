@@ -3,7 +3,7 @@ from textual.app import ComposeResult
 from textual.widgets import Input, Label, Button
 import yfinance as yf
 
-class RebalancerScreen(BaseScreen):
+class PortfolioScreen(BaseScreen):
     def compose_body(self) -> ComposeResult:
         yield Label("Stock Ticker:")
         yield Input(placeholder="VOO...", id="ticker")
