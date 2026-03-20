@@ -4,7 +4,7 @@ from textual.widgets import Static, Button
 
 class HomeScreen(BaseScreen):
     def compose_body(self) -> ComposeResult:
-        yield Static("Financial Control Program", id="hero")
+        yield Static("Home", id="title")
         yield Button("Open Settings", id="open-settings")
         yield Button("Open Portfolio", id="open-portfolio")
 

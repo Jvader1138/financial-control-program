@@ -3,9 +3,40 @@
   height: 1fr;
 }
 
-/* Hero label on Home */
-#hero {
+#title {
   padding: 2 2;
   text-style: bold;
   color: $text;
+}
+
+Horizontal {
+  height: auto;
+}
+
+Label {
+  margin-left: 1;
+}
+
+#ticker_input {
+  width: 1fr;
+}
+
+#portfolio_container {
+  padding-top: 1;
+}
+
+EditRowScreen {
+  align: center middle; 
+}
+
+#modal-edit-row {
+  width: 50%;
+  height: auto;
+  padding: 1 2;
+  border: thick $primary;
+  background: $surface;
+}
+
+.button--margin {
+  margin: 1 2;
 }
